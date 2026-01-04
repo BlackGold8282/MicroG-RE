@@ -70,8 +70,8 @@
     <string name="self_check_name_battery_optimizations">Ignorowanie optymalizacji baterii</string>
     <string name="self_check_resolution_battery_optimizations">Stuknij tutaj, aby wyłączyć optymalizację baterii. W przeciwnym razie mogą wystąpić problemy z otrzymywaniem powiadomień z YouTube i innych zarejestrowanych aplikacji</string>
 
-    <string name="self_check_revanced_name_app_installed">Uruchamianie <xliff:g example="F-Droid">%1$s</xliff:g></string>
-    <string name="self_check_revanced_resolution_app_installed"><xliff:g example="F-Droid">Aplikacja %1$s</xliff:g> nie została znaleziona, skompiluj lub zainstaluj zmodyfikowany apk</string>
+    <string name="self_check_patched_app_installed">Uruchamianie <xliff:g example="F-Droid">%1$s</xliff:g></string>
+    <string name="self_check_resolution_patched_app_installed"><xliff:g example="F-Droid">Aplikacja %1$s</xliff:g> nie została znaleziona, skompiluj lub zainstaluj zmodyfikowany apk</string>
 
     <!-- Ustawienia -->
 
@@ -153,6 +153,13 @@
     <string name="pref_network_google_enabled">Zezwól na łączenie się z serwerami Google</string>
     <string name="pref_network_google_use_tor">Połącz z Google przez sieć Tor</string>
     <string name="pref_network_google_use_tor_summary">Wymaga zainstalowania Orbot\nJeszcze niewspierane</string>
+
+    <string name="prefcat_gcm_registers">Rejestry</string>
+    <string name="pref_gcm_remove_registers">Usuń wszystkie zarejestrowane aplikacje</string>
+    <string name="pref_gcm_remove_registers_summary">Używaj tej opcji tylko w przypadku problemów z rejestracją aplikacji lub otrzymywaniem powiadomień</string>
+
+    <string name="gcm_remove_registers_dialog_title">Usunąć wszystkie rejestry?</string>
+    <string name="gcm_remove_registers_dialog_message">Spowoduje to jednoczesne usunięcie wszystkich aplikacji zarejestrowanych do powiadomień push\n\nBędziesz musiał otworzyć aplikacje, aby ponownie zarejestrować się w wiadomościach w chmurze\n\nNiektóre aplikacje mogą nie być w stanie zarejestrować się ponownie po tej akcji</string>
 
     <!-- Ustawienia konta -->
 

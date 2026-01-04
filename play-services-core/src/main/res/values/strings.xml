@@ -85,12 +85,8 @@ This can take a couple of minutes"</string>
     <string name="self_check_name_battery_optimizations">Battery optimizations ignored</string>
     <string name="self_check_resolution_battery_optimizations">Touch here to disable battery optimizations. Not doing so may result in issues receiving notifications from YouTube and other registered apps</string>
 
-    <string name="self_check_pkg_revanced">ReVanced</string>
-    <string name="self_check_pkg_revanced_extended">ReVanced Extended</string>
-    <string name="self_check_pkg_youtube_advanced">YT Advanced</string>
-    <string name="self_check_pkg_vanced">Vanced</string>
-    <string name="self_check_revanced_name_app_installed">Running with <xliff:g example="F-Droid">%1$s</xliff:g></string>
-    <string name="self_check_revanced_resolution_app_installed"><xliff:g example="F-Droid">%1$s</xliff:g> apps not found, compile or install a modified apk</string>
+    <string name="self_check_patched_app_installed">Running with <xliff:g example="F-Droid">%1$s</xliff:g></string>
+    <string name="self_check_resolution_patched_app_installed"><xliff:g example="F-Droid">%1$s</xliff:g> apps not found, compile or install a modified apk</string>
 
     <!-- Settings strings -->
 
@@ -174,6 +170,13 @@ This can take a couple of minutes"</string>
     <string name="pref_network_google_use_tor">Connect to Google via Tor network</string>
     <string name="pref_network_google_use_tor_summary">Requires Orbot to be installed\\nNot yet supported</string>
 
+    <string name="prefcat_gcm_registers">Registers</string>
+    <string name="pref_gcm_remove_registers">Remove all registered apps</string>
+    <string name="pref_gcm_remove_registers_summary">Only use this option if you are having problems registering an app or receiving notifications</string>
+
+    <string name="gcm_remove_registers_dialog_title">Remove all registers?</string>
+    <string name="gcm_remove_registers_dialog_message">This will remove all applications registered for push notifications at once\n\nYou will need to open the applications to re-register on cloud messaging\n\nSome apps maybe cannot register again after this action</string>
+
     <!-- Account settings-->
 
     <string name="pref_accounts_summary">Add and manage Google accounts</string>
@@ -201,11 +204,8 @@ This can take a couple of minutes"</string>
 
     <!-- Settings options strings-->
 
-    <string name="wstxda">WSTxda</string>
-    <string name="developer">Developer</string>
-    <string name="developer_link">https://github.com/WSTxda</string>
     <string name="github">GitHub</string>
+    <string name="developer">Developer</string>
     <string name="github_source">Source code repository</string>
-    <string name="github_link">https://github.com/WSTxda/MicroG-RE</string>
     <string name="pref_hide_launcher_icon">Hide icon in launcher</string>
 </resources>

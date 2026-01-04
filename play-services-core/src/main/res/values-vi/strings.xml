@@ -81,12 +81,8 @@ Việc này có thể tốn thời gian"</string>
     <string name="self_check_name_battery_optimizations">Vô hiệu hoá tối ưu pin cho ứng dụng</string>
     <string name="self_check_resolution_battery_optimizations">Bấm vào đây để bật khả năng chạy ngầm liên tục cho ứng dụng để tránh lỗi (Một vài OEM sẽ yêu cầu bật tự động chạy, vui lòng tự tìm hiểu)</string>
 
-    <string name="self_check_pkg_revanced">ReVanced</string>
-    <string name="self_check_pkg_revanced_extended">ReVanced Extended</string>
-    <string name="self_check_pkg_youtube_advanced">YT Advanced</string>
-    <string name="self_check_pkg_vanced">Vanced</string>
-    <string name="self_check_revanced_name_app_installed">Đang chạy với <xliff:g example="F-Droid">%1$s</xliff:g></string>
-    <string name="self_check_revanced_resolution_app_installed"><xliff:g example="F-Droid">%1$s</xliff:g> ứng dụng không tìm thấy hoặc đã bị chỉnh sửa</string>
+    <string name="self_check_patched_app_installed">Đang chạy với <xliff:g example="F-Droid">%1$s</xliff:g></string>
+    <string name="self_check_resolution_patched_app_installed"><xliff:g example="F-Droid">%1$s</xliff:g> ứng dụng không tìm thấy hoặc đã bị chỉnh sửa</string>
 
     <!-- Settings strings -->
 
@@ -169,6 +165,13 @@ Việc này có thể tốn thời gian"</string>
     <string name="pref_network_google_enabled">Kết nối tới máy chủ của Google</string>
     <string name="pref_network_google_use_tor">Kết nối máy chủ Google qua mạng lưới Tor</string>
     <string name="pref_network_google_use_tor_summary">Yêu cầu ứng dụng Orbot \\nChưa được cài đặt</string>
+
+    <string name="prefcat_gcm_registers">Trạng thái đăng kí</string>
+    <string name="pref_gcm_remove_registers">Gỡ mọi ứng dụng đã đăng kí</string>
+    <string name="pref_gcm_remove_registers_summary">Chỉ sử dụng khi bạn gặp vấn đề khi đăng kí hoặc nhận thông báo từ ứng dụng</string>
+
+    <string name="gcm_remove_registers_dialog_title">Xoá mọi trạng thái đăng kí?</string>
+    <string name="gcm_remove_registers_dialog_message">Điều này sẽ xoá tất cả những ứng dụng đã được đăng kí nhận thông báo từ FCM\n\nBạn cần phải mở những ứng dụng để đăng kí lại vào FCM\n\nMột vài ứng dụng có thể không thể đăng kí lại sau khi thực hiện</string>
 
     <!-- Account settings-->
 

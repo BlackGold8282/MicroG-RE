@@ -4,7 +4,11 @@
     tools:ignore="PrivateResource">
     <item>
         <shape>
-            <corners android:radius="20dp" />
+            <corners
+                android:bottomLeftRadius="20dp"
+                android:bottomRightRadius="20dp"
+                android:topLeftRadius="4dp"
+                android:topRightRadius="4dp" />
             <solid android:color="?attr/colorSurfaceContainer" />
         </shape>
     </item>
